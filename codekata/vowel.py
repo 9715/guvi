@@ -1,9 +1,9 @@
 n=(input())
 vowel="aeiou"
-Consonant="bcdfghjklmnpqrstvwxyz"
+consonant="bcdfghjklmnpqrstvwxyz"
 if n in vowel:
   print("vowel")
-elif n in Consonant:
-  print("Consonant")
+elif n in consonant:
+  print("consonant")
 else:
   print("Invalid")
