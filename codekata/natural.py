@@ -1,6 +1,6 @@
-y=int(input())
+n=int(input())
 sum=0
-while(y>0):
-  sum=sum+y
-  y=y-1
+while(n>0):
+  sum=sum+n
+  n=n-1
 print(sum)
