@@ -2,7 +2,7 @@ num = int(input("enter the number"))
 sum = 0
  
 for n in range(num):
-    numbers = float(input())
+    numbers = int(input())
     sum += numbers
  
 avg = sum/num
