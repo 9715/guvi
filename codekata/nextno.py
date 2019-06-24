@@ -1,3 +1,3 @@
-n=int(input())
-s=n+1
-print(s)
+s=int(input())
+t=s+1
+print(t)
