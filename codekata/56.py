@@ -1,0 +1,12 @@
+o=(input())
+digit=0
+alpha=0
+for i in o:
+  if(i.isdigit()):
+    digit=1
+  if(i.isalpha()):
+    alpha=1
+if(digit and alpha):
+    print("Yes")
+else:
+    print("No")
