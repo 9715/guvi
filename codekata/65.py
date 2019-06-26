@@ -1,3 +1,3 @@
-word=input()
-string=str(word)
+w=input()
+string=str(w)
 print(string)
